@@ -2,17 +2,15 @@
     margin:0px;
 }
 body {
-    background:radial-gradient(ellipse at top, #e2e2e2, #ffffff);
+    background-color:#edf4ff;
 }
 #landing {
     height:100vh;
-    width:100vw
 }
 /*Navbar Styling*/
 /*General Navbar Styling*/
 
  #navbar {
-    width:100vw;
     height:6vh;
     display:flex;
     align-items: center;
@@ -41,7 +39,7 @@ body {
 /*Navbar Logo Styling*/
 
  #landingLogo {
-    margin-left:1vw;
+     margin-left:1vw;
     margin-right:auto !important;
 }
 #landingLogo img {
@@ -56,16 +54,17 @@ body {
     background-color:transparent;
 }
 #navbar .links:hover {
-    background-color:#dbdbdb;
+    background-color:rgba(0,0,0,0.1);
+}
+#navbar .links h1{
+    font-size:4vh;
 }
 /*End Of Navbar Links Styling*/
 /*Navbar Menu Styling*/
 
  #menuOpen {
+     margin:0vw 1vw 0vw 1vw;
     cursor:pointer;
-
-    width:3vw;
-    margin:0vw 1vw 0vw 1vw;
     height:100%;
 }
 #menuOpen img {
