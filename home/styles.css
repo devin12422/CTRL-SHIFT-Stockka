@@ -1,0 +1,96 @@
+* {
+    margin:0px;
+}
+body {
+    background:radial-gradient(ellipse at top, #e2e2e2, #ffffff);
+}
+#landing {
+    height:100vh;
+    width:100vw
+}
+/*Navbar Styling*/
+/*General Navbar Styling*/
+
+ #navbar {
+    width:100vw;
+    height:6vh;
+    display:flex;
+    align-items: center;
+    justify-content:flex-end;
+}
+#navbar li {
+    display:flex;
+    align-items:center;
+    list-style:none;
+    height:100%;
+}
+#navbar li a {
+    display:flex;
+    align-content:center;
+    justify-content:center;
+    width:100%;
+    height:100%;
+    text-decoration:none;
+    font-family: acier-bat-outline, sans-serif;
+    color:transparent;
+    background: -webkit-radial-gradient(#642B73, #C6426E);
+    -webkit-background-clip: text;
+    transition:1s;
+}
+/*End Of General Navbar Styling*/
+/*Navbar Logo Styling*/
+
+ #landingLogo {
+    margin-left:1vw;
+    margin-right:auto !important;
+}
+#landingLogo img {
+    height:50%;
+}
+/*End of Navbar Logo Styling*/
+/*Navbar Links (right side of navbar) Styling*/
+
+ #navbar .links {
+    width:10%;
+    transition:background-color 0.2s;
+    background-color:transparent;
+}
+#navbar .links:hover {
+    background-color:#dbdbdb;
+}
+/*End Of Navbar Links Styling*/
+/*Navbar Menu Styling*/
+
+ #menuOpen {
+    cursor:pointer;
+
+    width:3vw;
+    margin:0vw 1vw 0vw 1vw;
+    height:100%;
+}
+#menuOpen img {
+    height:50%;
+}
+/*End of Navbar Menu*/
+/*End of Navbar Styling*/
+
+/*Sidebar Styling*/
+/*General Sidebar Styling  */
+
+#sidebar {
+    display:none;
+}
+#sidebar li {
+    list-style:none;
+    display:inline-block;
+}
+#sidebar li a {
+    text-decoration:none;
+    font-family:'Dosis', sans-serif;
+}
+/*End of General Sidebar Styling*/
+
+ #sidebar li img {
+    width:15vw;
+}
+/*End Of Sidebar Styling  */
